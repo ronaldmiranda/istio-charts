@@ -1,0 +1,49 @@
+apiVersion: v1
+entries:
+  base:
+  - apiVersion: v1
+    created: "2021-03-17T01:53:53.391619-03:00"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: d199581ed8fecc7998279a62e98db369aa91afccdb8e93870db36c7ea39913e7
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    name: base
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://ronaldmiranda.github.io/istio-charts/base-1.9.0.tgz
+    version: 1.9.0
+  istio-discovery:
+  - apiVersion: v1
+    created: "2021-03-17T01:53:53.39364-03:00"
+    description: Helm chart for istio control plane
+    digest: a130888e93d49417818140ece3cbef81defee3f2b1fbcaa19d25b2f30fe55947
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    name: istio-discovery
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://ronaldmiranda.github.io/istio-charts/istio-discovery-1.9.0.tgz
+    version: 1.9.0
+  istio-ingress:
+  - apiVersion: v1
+    created: "2021-03-17T01:53:53.396915-03:00"
+    description: Helm chart for deploying Istio gateways
+    digest: 54b9ec6c82db15d0ecd719ef45fffb8dd2d14c1ef2180d1abfe12a7aea5f816a
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - ingressgateway
+    - gateways
+    name: istio-ingress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://ronaldmiranda.github.io/istio-charts/istio-ingress-1.9.0.tgz
+    version: 1.9.0
+generated: "2021-03-17T01:53:53.389577-03:00"
